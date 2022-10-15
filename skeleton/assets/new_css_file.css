@@ -1,0 +1,54 @@
+body {
+    font-family: "Arial, sans-serif"; 
+    background-color:rgb(203, 165, 165);
+}
+
+h1 {
+    font-size: 38px;
+}
+
+.ingredients-list {
+   list-style: square inside;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.direction {
+    list-style: circle inside;
+}
+
+header > img {
+    width: 100px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user_review {
+    font-family: "Arial, sans-serif";
+    color: rgb(232, 73, 73);
+}
+
+input, select {
+    cursor: pointer;
+    outline: none;
+}
+
+input:last-child:hover {
+    background-color: gold;
+    -webkit-filter: brightness(70%);
+}
+
+ol > li:nth-child(odd) {
+    background: lightgray;
+  }
+
+h2 + .user_review {
+    border-top: 1px;
+    color: black;
+}
+
